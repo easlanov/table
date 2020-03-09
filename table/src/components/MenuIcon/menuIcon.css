@@ -1,0 +1,36 @@
+.menu-icon {
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+
+    background-image: url('./down.svg');
+    background-repeat: no-repeat;
+    background-size: 8px;
+    background-position: 2px 2px;
+
+    opacity: 0.2;
+    vertical-align: bottom;
+
+    cursor: pointer;
+}
+
+.menu-icon:hover {
+    opacity: 0.6;
+    box-shadow: 0 0 1px rgba(0,0,0,0.5);
+}
+
+.menu-icon:active {
+    border-color: #1a73e8;
+    box-shadow: 0 0 1px rgba(0,0,0,0.5);
+}
+
+.menu-icon_visibility {
+    visibility: hidden;
+}
+
+.menu-icon_inverted .menu-icon {
+    border: 1px solid #fff;
+}
+
